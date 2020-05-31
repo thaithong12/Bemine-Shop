@@ -1,0 +1,51 @@
+#full-head{
+ background:  linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),url(../images/background_trangchu.jpg) no-repeat;  /* fixed de rool nhu 1 cái background dong */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#service{
+	margin-top: 6%;
+	font-family: "Roboto" !important;
+	color: black;
+}
+.row-service{
+	text-align: center;
+}
+.row-service img{
+	width: 50px;
+	height: 50px;
+}
+#banner-mid{
+	 background:  linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),url(../images/new/hero_1.jpg) no-repeat;  /* fixed de rool nhu 1 cái background dong */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#banner-footer{
+	 background:  linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),url(../images/new/background_footer.jpg) no-repeat;  /* fixed de rool nhu 1 cái background dong */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.site-section{
+	padding-top: 0xp !important;
+	padding-bottom: 0px !important;
+}.footer-heading{
+	color: #d2bebe !important;
+}
+.mb-5 ul li{
+	color: #b34b54 !important;
+}

@@ -1,0 +1,43 @@
+.text-black{
+	color: #000;
+}
+.border{
+	height: 68px;
+    padding-top: 3%;
+}
+.form-row .input[type="text"]{
+	padding: 17px 6px 15px 138px !important;
+}
+.lebel-abs{
+	top: 17px !important;
+}
+.billing{
+	border: 1px solid #eee;
+	padding: 4%;
+}
+.form-row{
+	margin-bottom: 19px;
+}
+.your-details{
+	margin-left: 10%;
+}
+.bill{
+	border: 1px solid #eee;
+	text-align: center;
+	padding: 4%;
+	width: 130%;
+}
+table tbody tr td{
+	text-align : center;
+	font-size: 13px;
+	color: #000;
+}
+table tr th{
+	color: #000;
+}
+.price{
+	color: red;
+}
+h2{
+	color: #000 !important;
+}

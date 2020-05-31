@@ -1,0 +1,17 @@
+.form-control{
+	width: 50% !important;
+	margin-right: 11%;
+}
+label{
+	float: left;
+    width: 29%;
+    text-align: right;
+    padding-top: 7px;
+    padding-right: 5px;
+}
+#form-change-pass{
+	display: none;
+}
+#focus-ava{
+	display: none;
+}

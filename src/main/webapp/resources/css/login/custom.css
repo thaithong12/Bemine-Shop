@@ -1,0 +1,159 @@
+
+html, body{	
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	font-size: 14px;
+}
+#body-login{
+/* 	background-color: #00909C; */
+	 background-image: url("../../images/login/br-login.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#body-flex-login{
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login{
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+#container-login-left{
+	width: 380px;
+	height: 610px;
+	background-image: url("../../images/login/backgrounddangnhap.png");
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 16px;
+
+}
+.header-login{
+	margin-top: 32px;
+}
+#header-left{
+	text-align: center;
+	color: white;
+}
+#text-logo{
+	font-size: 48px;
+}
+#hint-text-logo{
+	font-size: 12px;
+	opacity: 0.7;
+}
+#header-bottom{
+	color: white;
+	margin-bottom: 64px;
+}
+#header-bottom span{
+	margin-left: 8px;
+}
+
+/* 
+page dang nhap */
+
+#container-login-right{
+	padding-left: 24px;
+	padding-right: 16px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+      
+}
+#header-top-right{
+	font-size: 20px;
+	color: #878787;
+}
+.active{
+	color: #DA7C79;
+}
+#social{
+	align-self: flex-end;
+}
+#container-center-right input[type=text]{
+	margin-top: 8px;
+}
+
+.btn-login{
+	width: 100%;
+	margin-top: 24px;
+	background-color: #00909C;
+	height: 38px;
+	color: white;
+	font-size: 14px;
+	border: none;
+	box-shadow: 0px 2px 4px 0px #000;
+}
+.email-input{
+	background: url(../../images/login/ic_email.png) no-repeat scroll 16px 10px;
+	padding-left:46px;
+	background-color: #d8d8d8;
+    height: 38px;
+    border: none;
+    width: 100%;
+}
+.name-input{
+	background: url(../../images/login/name.png) no-repeat scroll 16px 12px;
+	padding-left:46px;
+	background-color: #d8d8d8;
+    height: 38px;
+    border: none;
+    width: 100%;
+    padding-top: 3px;
+}
+.address-input{
+	background: url(../../images/login/address.png) no-repeat scroll 16px 12px;
+	padding-left:46px;
+	background-color: #d8d8d8;
+    height: 38px;
+    border: none;
+    width: 100%;
+      padding-top: 3px;
+}
+.phone-input{
+	background: url(../../images/login/phone-book.png) no-repeat scroll 16px 12px;
+	padding-left:46px;
+	background-color: #d8d8d8;
+    height: 38px;
+    border: none;
+    width: 100%;
+      padding-top: 3px;
+}
+.file-input{
+	background: url(../../images/login/avatar.png) no-repeat scroll 16px 10px;
+	padding-left:46px;
+	background-color: #d8d8d8;
+    height: 38px;
+    border: none;
+    width: 100%;
+    margin-top: 8px;
+}
+.pass-input{
+	background: url(../../images/login/ic_lock.png) no-repeat scroll 16px 10px;
+	padding-left:46px;
+	background-color: #d8d8d8;
+    height: 38px;
+    border: none;
+    width: 100%;
+    margin-top: 8px;
+}
+.form-sign-up{
+	display: none;
+}
+a:hover{
+	text-decoration: none;
+}
